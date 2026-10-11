@@ -1,0 +1,23 @@
+J(home) =
+            1            0            0            0            0            0
+            0            1            0            0            0            0
+            0            0            1            0            0            0
+            0            0            0            1            0            0
+            0            0            0            0            1            0
+            0            0            0            0            0            1
+J(home) == I ? 1
+0T6(home) = (C6 = C0, o6 at the wrist centre)
+            1            0            0          0.4
+            0            1            0          0.3
+            0            0            1          0.5
+            0            0            0            1
+
+(c) det(J) vs cos(theta5) for random joint vectors:
+   det(J) = +0.57466   cos(th5) = +0.57466
+   det(J) = -0.99959   cos(th5) = -0.99959
+   det(J) = +0.24091   cos(th5) = +0.24091
+   det(J) = +0.51317   cos(th5) = +0.51317
+   theta5 = 90 deg -> det(J) = 2.34892e-16, rank(J) = 5  (k3 and k5 both along i0)
+
+(d) d = [0.25 -0.1 0.4] m, th4 = 360, th5 = -360, th6 = 74.5 deg -> J == I ? 1
+    th4 = th5 = 180 deg                             -> J == I ? 0
